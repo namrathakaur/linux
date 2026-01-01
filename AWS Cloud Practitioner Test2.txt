@@ -1,0 +1,239 @@
+1. Which EC2 pricing option is cheapest for workloads that can be interrupted?
+A. On-Demand
+B. Reserved Instances
+C. Spot Instances
+D. Dedicated Hosts
+
+2. What does a Security Group act as for an EC2 instance?
+A. Stateless firewall
+C. Stateful firewall
+B. Load balancer
+D. Encryption tool
+
+3. Which storage is persistent even after EC2 termination (if configured)?
+A. BD Store
+B. EBS Volume
+C. S3
+D. CloudFront
+
+4. What does "scaling out" mean in Auto Scaling?
+A. increase unhealthy instances
+B. Increasing instance size
+C. Adding more instances
+D. Removing old AMIs
+
+5. Which service lets you run containers without EC2 servers?
+A. ECS with EC2
+B. Lambda
+C. ECS Fargate
+D. EKS
+
+6. What does an EC2 instance type define?
+A. Number of IP Addresses
+B. Region and Availability Zone
+C. CPU, memory, and networking capacity
+D. VPC configuration
+
+7. Which EC2 feature provides a static public IP?
+A. dynamic IP
+B. Public IP
+C. Elastic IP
+D. Route 53
+
+8. Which service distributes traffic across EC2 instances?
+A. API Gateway
+B. Auto Scaling Group
+C. scale in and scale out
+D. Elastic Load Balancer
+
+9. What is typically the root volume of an EC2 instance?
+A. S3 Bucket
+B. EBS Volume
+C. DynamoDB Table
+D. Elastic File System
+
+10. EC2 instances run inside which AWS component?
+A. Availability Zone
+B. public subnet
+C. VPC
+D. Subnet only
+________________________________________
+11. Best practice for assigning permissions?
+A. Assign directly to users
+B. Give full admin access
+C. Use IAM Groups
+D. Never use policies
+
+12. Which IAM component allows grouping users and attaching policies?
+A. Roles
+B. Groups
+C. Policies
+D. MFA
+
+13. IAM Roles are used for?
+A. Assigning long-term credentials
+B. Giving permissions to AWS services
+C. to access the aws resource 
+D. Creating VPCs
+
+14. Default access level for new IAM users?
+A. No permissions
+B. Full access
+C. Read-only access
+D. Admin access
+
+15. What do users need to log in to the Console?
+A. Access keys
+B. Password
+C. Secret key
+D. IP address
+
+16. Which feature gives temporary AWS credentials?
+A. IAM User
+B. IAM Role
+C. IAM Group
+D. Access keys
+
+17. IAM is used for?
+A. Monitoring AWS resources
+B. Managing permissions and access
+C. Deploying applications
+D. Running servers
+
+18. which services can we assign MFA?
+A. SCPs
+B. IAM 
+C. ROOT 
+D. MFA Enforcement
+
+19. What does an IAM Policy define?
+A. Billing alerts
+B. Access to resources
+C. Encryption keys
+D. VPC routing rules
+
+20. Which service is used for centralized identity management?
+A. CloudTrail
+B. IAM
+C. Config
+D. CloudWatch
+________________________________________
+21. Purpose of a VPC?
+A. Store objects
+B. Isolated network environment
+C. Manage users
+D. Run Lambda functions
+
+22. What is a subnet inside a VPC?
+A. Firewall
+B. Route table
+C. A range of IP addresses
+D. Database
+
+23. Which component enables internet access to VPC?
+A. NAT Gateway
+B. Internet Gateway
+C. Route Table
+D. Security Group
+
+24. Which route entry makes a subnet public?
+A. 0.0.0.0/0 → Internet Gateway
+B. 0.0.0.0/0 → NAT Gateway
+C. 10.0.0.0/24 → Local
+D. 10.0.0.0/16 → VPC Peering
+
+25. Which service  should we use file transfor from  on-premise to aws services 
+A. aws transfer family 
+B. storage gateway
+C. S3 Transfer Acceleration
+D. Elastic Beanstalk
+
+26. What is a Security Group?
+A. Stateless firewall
+B. DNS server
+C. Stateful firewall
+D. NAT device
+
+27. Public subnet means?
+A. No internet access
+B. Access via NAT
+C. Connected to Internet Gateway
+D. Only private IPs
+
+28. Which service provides DNS inside AWS?
+A. CloudFront
+B. Route 53
+C. CloudTrail
+D. S3
+
+29. Purpose of NAT Gateway?
+A. Public access to instances
+D. Allow private instances to access internet
+C. Database hosting
+B. DNS management
+
+30. Default VPC limit per region?
+A. 10
+B. 3
+C. 6
+D. 5
+________________________________________
+31. What type of storage is S3?
+A. Block storage
+B. Object storage
+C. File storage
+D. Cache storage
+
+32. Max size of a single S3 object?
+A. 1 GB
+B. 5 GB
+C. 5O TB
+D. 100 TB
+
+33. Which feature blocks public access?
+A. ACL
+B. Bucket Policies
+C. S3 Block Public Access
+D. Versioning
+
+34. Purpose of S3 storage classes?
+A. Routing traffic
+B. Define cost & access frequency
+C. Create databases
+D. Encrypt objects
+
+35. S3 durability guarantee?
+A. 99.0%
+D. 99.9%
+C. 99.999%
+B. 99.999999999% (11 9’s)
+________________________________________
+36. Which service is a managed relational DB?
+A. DynamoDB
+B. MONGO DB
+C. RDS
+D. S3
+
+37. Fully managed NoSQL database?
+A. RDS
+B. Aurora
+C. DynamoDB
+D. DocumentDB
+
+38. Aurora is?
+A. Key-value store
+B. In-memory cache
+C. High-performance relational database
+D. Data warehouse
+
+39. Which service handles backups & failover automatically?
+A. Lambda
+B. EC2    
+C.RDS
+D. IAM
+
+40. Best database for microsecond latency?
+A. DynamoDB
+B. RDS
+C. ElastiCache
+D. Redshift
